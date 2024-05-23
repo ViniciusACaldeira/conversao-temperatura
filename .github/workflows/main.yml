@@ -42,6 +42,6 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          viniciusacaldeira/aula-conversao-temperatura:v1
+          viniciusacaldeira/aula-conversao-temperatura:${{github.run_number}}
           viniciusacaldeira/aula-conversao-temperatura:latest
         
